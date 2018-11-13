@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 def line(array)
   if array.size === 0
     puts "The line is currently empty."
@@ -33,7 +33,7 @@ def now_serving(array)
     
   end
  end
-=======
+
 def take_a_number(array, string)
  array.push(string)
  puts "Welcome, #{string}. You are number #{array.size} in line."
@@ -46,4 +46,4 @@ def now_serving(array)
     
 
 end
->>>>>>> 6a7556838a48cef6f087c29e56f9f1827204443d
+
