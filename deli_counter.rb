@@ -43,6 +43,7 @@ def now_serving(array)
 
 def take_a_number(line)
   $counter += 1
+  line.push($counter)
   puts "Welcome you are number #{$counter}"
 end
 
@@ -55,7 +56,10 @@ def now_serving(array)
 end
 
 take_a_number(katz_deli)
+puts katz_deli
 take_a_number(katz_deli)
+puts katz_deli
 take_a_number(katz_deli)
+puts katz_deli
 
  
