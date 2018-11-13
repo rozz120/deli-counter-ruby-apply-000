@@ -1,4 +1,5 @@
 katz_deli = []
+$counter = 0
 
 def line(array)
   if array.size === 0
@@ -41,7 +42,8 @@ def now_serving(array)
 # end
 
 def take_a_number(line)
-  
+  $counter += 1
+  puts "Welcome you are number #{$counter}"
 end
 
 def now_serving(array)
@@ -52,6 +54,8 @@ def now_serving(array)
 
 end
 
+take_a_number(katz_deli)
+take_a_number(katz_deli)
 take_a_number(katz_deli)
 
  
