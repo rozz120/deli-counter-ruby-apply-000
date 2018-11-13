@@ -48,4 +48,4 @@ def now_serving(array)
 
 end
 
-
+ take_a_number(katz_deli, "Ada")
